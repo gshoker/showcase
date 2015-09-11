@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#FF5722</color>
+    <color name="primaryColorDark">#E64A19</color>
+    <color name="accentColor">#3F51B5</color>
+
+    <color name="primaryColorTwit">#03A9F4</color>
+    <color name="primaryColorDarkTwit">#0288D1</color>
+    <color name="accentColorTwit">#E91E63</color>
+
+    <color name="primaryColorRest">#009688</color>
+    <color name="primaryColorDarkRest">#00796B</color>
+    <color name="accentColorRest">#F44336</color>
+
+    <color name="primaryColorFlickr">#3F51B5</color>
+    <color name="primaryColorDarkFlickr">#303F9F</color>
+    <color name="accentColorFlickr">#E91E63</color>
+
+</resources>

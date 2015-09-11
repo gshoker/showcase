@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/mplImageView"
+        android:scaleType="centerCrop"
+        android:padding="4dp"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mplTime"
+            android:text="Time"
+            android:layout_toEndOf="@+id/mplUsername"
+            android:layout_above="@+id/mplContent"
+            android:layout_toRightOf="@+id/mplUsername"
+            android:layout_marginLeft="8dp"
+            android:textSize="@dimen/abc_text_size_small_material"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mplUsername"
+            android:textStyle="bold"
+            android:text="User"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+             />
+
+        <TextView
+            android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mplContent"
+            android:text="Content for the android application that I am making"
+            android:layout_below="@+id/mplUsername"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"/>
+
+     </RelativeLayout>
+
+</LinearLayout>

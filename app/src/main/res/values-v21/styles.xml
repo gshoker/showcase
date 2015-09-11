@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!--<item name="android:colorPrimary">@color/primaryColor</item>-->
+        <!--<item name="android:colorPrimaryDark">@color/primaryColorDark</item>-->
+        <!--<item name="android:colorAccent">@color/accentColor</item>-->
+    </style>
+
+    <style name="RestaurantToolbarTheme" parent="AppTheme.Base">
+        <item name="android:textColorPrimary">#FFF</item>
+        <item name="colorPrimary">@color/primaryColorRest</item>
+        <item name="colorPrimaryDark">@color/primaryColorDarkRest</item>
+        <item name="colorAccent">@color/accentColorRest</item>
+        <!--<item name="android:textColorSecondary">#00F</item>-->
+    </style>
+
+    <style name="TwitterToolbarTheme" parent="AppTheme.Base">
+        <item name="android:textColorPrimary">#FFF</item>
+        <item name="colorPrimary">@color/primaryColorTwit</item>
+        <item name="colorPrimaryDark">@color/primaryColorDarkTwit</item>
+        <item name="colorAccent">@color/accentColorTwit</item>
+        <!--<item name="android:textColorSecondary">#00F</item>-->
+    </style>
+
+    <style name="FlickrToolbarTheme" parent="AppTheme.Base">
+        <item name="android:textColorPrimary">#FFF</item>
+        <item name="colorPrimary">@color/primaryColorFlickr</item>
+        <item name="colorPrimaryDark">@color/primaryColorDarkFlickr</item>
+        <item name="colorAccent">@color/accentColorFlickr</item>
+        <item name="android:textColorSecondary">#00F</item>
+    </style>
+</resources>
